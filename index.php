@@ -37,8 +37,7 @@ switch($action) {
 			$controller = getGenesisController();
             break;
 		case 'books':
-			require_once('controllers/BooksController.php');
-			$controller = new BooksController();
+			conflit
 			break;
 		case 'contact':
 			require_once('controllers/ContactController.php');	
